@@ -1,6 +1,12 @@
 const App = () => {
+  //Inline style object for the container
+
+  const containerStyle = {
+    textAlign: "center",
+    margin: "20px",
+  };
   return (
-    <div>
+    <div style={containerStyle}>
       <img
         src="https://cdn.pixabay.com/photo/2023/07/22/09/04/european-shorthair-8142967_1280.jpg"
         alt="Avatar"
