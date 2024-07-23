@@ -1,3 +1,5 @@
+import "./UserProfile.css";
+import style from './UserProfile.module.css';
 const App = () => {
   //Inline style object for the container
 
@@ -26,10 +28,10 @@ const App = () => {
         Emmanuel Tweneboah
       </h2>
       <p>FullStack Web Developer | React Enthisiast</p>
-      <ul>
-        <li>Coding</li>
-        <li>Hiking</li>
-        <li>Traveling</li>
+      <ul className={style.hobbies}>
+        <li className={style.hobby}>Coding</li>
+        <li className={style.hobby}>Hiking</li>
+        <li className={style.hobby}>Traveling</li>
       </ul>
     </div>
   );
